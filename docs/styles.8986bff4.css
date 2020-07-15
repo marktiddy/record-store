@@ -186,20 +186,24 @@ header {
 }
 
 @media only screen and (max-width: 600px) {
+  body {
+    max-width: 100vw;
+  }
   header {
-    width: 120vw;
+    width: 100vw;
     text-align: center;
   }
   .overlay {
-    width: 120vw;
+    width: 100vw;
     z-index: 2;
   }
   .main-text {
     height: 100vh;
-    width: 130vw;
+    width: 100vw;
   }
   .main-text h2 {
-    font-size: 1.2em;
+    font-size: 1em;
+    padding: 0.5em;
     text-align: center;
     line-height: 2em;
   }
@@ -209,9 +213,10 @@ header {
   }
   .main-text a {
     top: 50vh;
+    font-size: 1em;
   }
   #main-area {
-    width: 120vw;
+    width: 100vw;
     height: auto;
   }
   .new-records-container {
